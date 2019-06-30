@@ -1,0 +1,35 @@
+Index: gittest/src/main/java/pojo/User.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- gittest/src/main/java/pojo/User.java	(date 1561887626248)
++++ gittest/src/main/java/pojo/User.java	(date 1561887626248)
+@@ -0,0 +1,6 @@
++package pojo;
++
++public class User {
++    String username;
++    Integer age;
++}
+Index: gittest/pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- gittest/pom.xml	(date 1561887724654)
++++ gittest/pom.xml	(date 1561887724654)
+@@ -0,0 +1,12 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project xmlns="http://maven.apache.org/POM/4.0.0"
++         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
++         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
++    <modelVersion>4.0.0</modelVersion>
++
++    <groupId>com.itheima</groupId>
++    <artifactId>gittest</artifactId>
++    <version>1.0-SNAPSHOT</version>
++
++
++</project>
+\ No newline at end of file
